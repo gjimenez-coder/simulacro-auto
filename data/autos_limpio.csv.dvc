@@ -1,0 +1,5 @@
+outs:
+- md5: 86f3c639f88c03c72616360ddb2effb1
+  size: 20940
+  hash: md5
+  path: autos_limpio.csv
