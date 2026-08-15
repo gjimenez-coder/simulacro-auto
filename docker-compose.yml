@@ -4,6 +4,20 @@ services:
     image: simulacro_autos-datalab
     volumes:
       - .:/workspace
+      - /tmp/dvc_storage:/tmp/dvc_storage
     working_dir: /workspace
     tty: true
     stdin_open: true
+
+  jupyter:
+    build: .
+    image: simulacro_autos-datalab
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    ports:
+      - "8888:8888"
+    command: >
+      conda run --no-capture-output -n datalab
+      jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root
+      --ServerApp.token=datalab

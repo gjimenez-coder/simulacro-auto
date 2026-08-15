@@ -1,2 +1,4 @@
 mlruns/
  mlflow.db
+.venv/
+data/autos.csv
