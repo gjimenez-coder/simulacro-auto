@@ -1,5 +1,6 @@
-mlruns/
- mlflow.db
 .venv/
 data/autos.csv
 data/autos_limpio.csv
+mlruns/
+mlflow.db
+.ipynb_checkpoints/
