@@ -1,15 +1,18 @@
 {
-  "n_filas": 398,
+  "n_filas_original": 398,
   "n_columnas": 9,
-  "horsepower_nulos": 6,
-  "filas_eliminadas": 6,
-  "mpg_media": 23.45,
-  "mpg_mediana": 22.75,
+  "nulos_horsepower": 6,
+  "n_filas_limpio": 392,
+  "mpg_promedio": 23.45,
+  "mpg_mediano": 22.75,
   "correlacion_weight_mpg": -0.8322,
   "mpg_promedio_por_origen": {
     "europe": 27.6,
     "japan": 30.45,
     "usa": 20.03
   },
-  "origen_mas_eficiente": "japan"
+  "origen_mas_eficiente": "japan",
+  "mejor_modelo": "",
+  "rmse_test_mejor_modelo": 0.0,
+  "r2_test_mejor_modelo": 0.0
 }
