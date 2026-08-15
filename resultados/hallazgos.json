@@ -12,7 +12,7 @@
     "usa": 20.03
   },
   "origen_mas_eficiente": "japan",
-  "mejor_modelo": "",
-  "rmse_test_mejor_modelo": 0.0,
-  "r2_test_mejor_modelo": 0.0
+  "mejor_modelo": "rf-300-10",
+  "rmse_test_mejor_modelo": 2.4027,
+  "r2_test_mejor_modelo": 0.8869
 }
