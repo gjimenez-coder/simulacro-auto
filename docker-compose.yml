@@ -1,0 +1,9 @@
+services:
+  datalab:
+    build: .
+    image: simulacro_autos-datalab
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    tty: true
+    stdin_open: true

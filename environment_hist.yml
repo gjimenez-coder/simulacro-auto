@@ -1,0 +1,11 @@
+name: datalab
+channels:
+  - defaults
+dependencies:
+  - pandas
+  - scikit-learn
+  - ipykernel
+  - matplotlib
+  - numpy
+  - jupyter
+  - python=3.11
